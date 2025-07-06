@@ -6,15 +6,19 @@ const Footer = () => {
     <footer className="footer footer-horizontal footer-center bg-neutral text-neutral-content p-10">
   <aside>
     <Logo></Logo>
-    <p className="font-bold">
-      ACME Industries Ltd.
-      <br />
-      Providing reliable tech since 1992
-    </p>
-    <p>Copyright © {new Date().getFullYear()} - All right reserved</p>
+    <p className='max-w-[70%]'>Enjoy fast, reliable parcel delivery with real-time tracking and zero hassle. From personal packages to business shipments — we deliver on time, every time.</p>
   </aside>
-  <nav>
-    <div className="grid grid-flow-col gap-4">
+      <nav>
+        <div>
+          <ul className='flex items-center gap-2 lg:gap-10 mb-4'>
+            <li>services</li>
+            <li>coverage</li>
+            <li>about us</li>
+            <li>blog</li>
+            <li>contact us</li>
+          </ul>
+        </div>
+        <div className="grid grid-flow-col gap-3 lg:gap-10">
       <a>
         <svg
           xmlns="http://www.w3.org/2000/svg"
