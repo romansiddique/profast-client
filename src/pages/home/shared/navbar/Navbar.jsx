@@ -50,7 +50,8 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="navbar-end">
-        <a className="btn">Button</a>
+        <button className="mr-4 border-2 border-[#CAEB66] px-4 py-1 rounded-lg font-medium btn text-lg">sign in</button>
+        <a className="btn bg-[#CAEB66]">Be a Rider</a>
       </div>
     </div>
   );
